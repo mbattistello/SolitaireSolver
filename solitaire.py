@@ -34,3 +34,18 @@ class Board:
 
     def solve():
         None
+
+
+    def print( self ):
+        print( "This is the board" )
+
+
+def main():
+    board = Board()
+
+    board.print()
+
+
+
+if __name__ == '__main__':
+    main()
